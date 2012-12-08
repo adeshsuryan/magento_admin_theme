@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+ <!-- 
+/*
+ * @category    Community
+ * @package     AK_Admintheme
+ * @Document    AK_Admintheme.xml
+ * @Created on  Nov 1, 2012, 7:05 PM
+ * @copyright   Copyright (c) 2012 adesh suryan (adeshsuryan.in)
+ */
+  -->
+    <modules>
+        <AK_Admintheme>
+            <active>true</active>
+             <codePool>community</codePool>
+        </AK_Admintheme>
+    </modules>
+</config>

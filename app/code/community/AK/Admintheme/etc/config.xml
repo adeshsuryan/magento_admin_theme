@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+ <!-- 
+/*
+ * @category    Community
+ * @package     AK_Admintheme
+ * @Document    Config.xml
+ * @Created on  Nov 1, 2012, 7:05 PM
+ * @copyright   Copyright (c) 2012 adesh suryan (adeshsuryan.in)
+ */
+  -->
+<config>
+	<modules>
+			<AK_Admintheme>
+				<version>1.0.1</version>
+			</AK_Admintheme>
+	</modules>
+  <global>
+    <models>
+        <akadminthemecontroller>
+             <class>AK_Admintheme_Controller</class>
+        </akadminthemecontroller>
+    </models>
+	  <!-- Adminhtml theme event, it's fire when admin session will be created.  -->
+    <events>
+      <adminhtml_controller_action_predispatch_start>
+        <observers>
+          <ak_themeoverride_observer>
+            <type>singleton</type>
+            <!-- akadminthemecontroller/observer  -->
+            <class>AK_Admintheme_Controller_Observer</class>
+            <method>overrideTheme</method>
+          </ak_themeoverride_observer>
+        </observers>
+      </adminhtml_controller_action_predispatch_start>      
+    </events>
+  </global>
+</config>

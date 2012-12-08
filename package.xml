@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<package>
+    <name>ManageAdminthemeEx</name>
+    <version>1.0.2</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension provide you a functionality by Admin can Change Theme from back-end  any time.</summary>
+    <description>This extension provide you a functionality by Admin can Change Theme from back-end  any time.</description>
+    <notes>&lt;h2&gt;Enhanced Admin Theme&lt;/h2&gt;&#xD;
+&lt;div&gt;From the makers of &lt;/div&gt;&#xD;
+&lt;div&gt;&lt;span&gt;&lt;a href="http://adeshsuryan.com"&gt;AdeshSuryan&#xD;
+&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&#xD;
+&lt;h3&gt;&lt;span&gt;Features&lt;/span&gt;&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+&lt;strong&gt;Change Admin Theme:&lt;/strong&gt; As you know  we can change the front-end theme  any time from admin ( in Design setting ). But some time we needs  some modification in admin theme. For this purpose you can use this extension .  &#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;Installation Instructions&lt;/h3&gt;&#xD;
+&lt;p&gt;&#xD;
+&lt;strong&gt;Just follow below steps one by one :&lt;/strong&gt;&#xD;
+&lt;ol&gt;&#xD;
+&lt;li&gt;&#xD;
+Copy the  all  folder  and contents  from "Default" folder  ( check the below path )  . Create a custom folder like as admin_custom theme  and past all contents in  this folder .&#xD;
+&lt;strong&gt;Path : &lt;/strong&gt; app/design/adminhtml/default/&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+Copy the  all  folder  and contents  from  skin "Default" folder  ( check the below path )  . Create a custom folder like as admin_custom theme  and past all contents in  this folder .&#xD;
+&lt;strong&gt;Path : &lt;/strong&gt; skin/adminhtml/default/&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+Clear all Cache and locks from  Var folder . If you are login in admin  then logout  from admin and clean  cache again .&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+Check the  admin theme setting  form below section .&#xD;
+&#xD;
+System-&gt;Configuration-&gt;Design -&gt; Admin Theme&#xD;
+&lt;/li&gt;&#xD;
+&lt;li&gt;&#xD;
+Update theme name from  new admin theme like as  admin_custom .&#xD;
+&lt;/li&gt;&#xD;
+&lt;/ol&gt;&#xD;
+&lt;/p&gt;</notes>
+    <authors><author><name>AdeshSuryan</name><user>adeshsuryan</user><email>adeshsuryan2005@gmail.com</email></author></authors>
+    <date>2012-11-22</date>
+    <time>05:50:17</time>
+    <contents><target name="mage"><dir name="app"><dir name="code"><dir name="community"><dir name="AK"><dir name="Admintheme"><dir name="Controller"><file name="Observer.php" hash="00ef51f70a2a52f312a1df4d08292c5f"/></dir><dir name="etc"><file name="config.xml" hash="230208f28b9179fbe0d8efe77dd84c47"/><file name="system.xml" hash="da680b8958477d5097062a414dbd9b91"/></dir></dir></dir></dir></dir><dir name="etc"><dir name="modules"><file name="AK_Admintheme.xml" hash="739ae9270785c833a87a750c85241f3d"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
